@@ -9,7 +9,32 @@
 <body>
     <h1>Drag Drop & Roll</h1>
     <div id="schedule-container">
-        <!-- The schedule will be displayed here -->
+        <h1>Welcome to the Scheduling App</h1>
+
+<div id="schedule-container">
+    <!-- Form for adding schedule items -->
+    <form id="schedule-form">
+        <label for="title">Event Title:</label>
+        <input type="text" id="title" name="title" placeholder="Enter event title" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <button type="submit">Add Schedule Item</button>
+    </form>
+
+    <hr>
+
+    <!-- Placeholder for the schedule list -->
+    <h2>Scheduled Items</h2>
+    <ul id="schedule-list">
+        <!-- New schedule items will appear here -->
+    </ul>
+</div>
+
     </div>
     <script src="script.js"></script>
 </body>
